@@ -3,4 +3,12 @@ body {
   background-color: rgba(204, 204, 204, 0.07);
 }
 
+header a {
+  color: inherit;
+}
+header nav {
+  background-color: #04b3f8;
+  color: aliceblue;
+}
+
 /*# sourceMappingURL=main.css.map */
