@@ -11,10 +11,13 @@ body {
 
 header a {
   color: inherit;
+  text-decoration: none;
 }
 header nav {
   background-color: #04b3f8;
   color: aliceblue;
+  display: flex;
+  justify-content: right;
 }
 
 /*# sourceMappingURL=main.css.map */
