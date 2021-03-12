@@ -12,8 +12,8 @@
 <header>
     <nav>
         <a href="" class="brand">JORDINI-TECH</a>
-        <span class="togglerNav">
-            <svg width="50px" height="48px" viewbox="0 0 50 48"  xmlns:xlink="http://www.w3.org/1999/xlink"
+        <span class="togglerNav" onclick="$('#nav').slideToggle()">
+            <svg width="48px" height="48px" viewbox="0 0 48 48"  xmlns:xlink="http://www.w3.org/1999/xlink"
                  xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <path d="M0 0L49.3846 0L49.3846 48L0 48L0 0Z" id="path_1"/>
@@ -32,14 +32,21 @@
               </g>
             </svg>
         </span>
-        <ul>
+        <ul id="nav">
             <li><a href=""> PROJETS</a></li>
             <li><a href="">TEMPLATES</a></li>
             <li><a href="">CONTACT</a></li>
         </ul>
     </nav>
 </header>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, commodi dolorem expedita explicabo impedit, ipsam
-    magni maxime natus obcaecati optio provident reiciendis sequi unde vero! Magni quae soluta veritatis?</p>
+<main>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, commodi dolorem expedita explicabo impedit, ipsam
+        magni maxime natus obcaecati optio provident reiciendis sequi unde vero! Magni quae soluta veritatis?</p>
+</main>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
